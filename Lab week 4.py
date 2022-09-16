@@ -53,7 +53,7 @@ while (running == True):
     print()
 
     # Cycles through number from 1 to 100 to determine the user's number
-    for i in range(1, 100):
+    for i in range(1, 100+1):
         if(i % 3 == div3 and i % 5 == div5 and i % 7 == div7):
             print(f'Your number was {i}\nHow amazing is that?')
             print()
