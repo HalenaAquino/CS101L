@@ -10,7 +10,7 @@ while (running == True):
     print('Please think of a number between and including 1 and 100.')
     print()
     
-    #Determines if the remainder the user entered is a valid number and repeats
+    # Determines if the remainder the user entered is a valid number and repeats
     # the question until the answer is valid
     div3Invalid = True
     while (div3Invalid == True):
@@ -24,7 +24,7 @@ while (running == True):
             div3Invalid = False
     print()
 
-    #Determines if the remainder the user entered is a valid number and repeats
+    # Determines if the remainder the user entered is a valid number and repeats
     # the question until the answer is valid
     div5invalid = True
     while (div5invalid == True):
@@ -38,7 +38,7 @@ while (running == True):
             div5invalid = False
     print()
 
-    #Determines if the remainder the user entered is a valid number and repeats
+    # Determines if the remainder the user entered is a valid number and repeats
     # the question until the answer is valid
     div7invalid = True
     while (div7invalid == True):
