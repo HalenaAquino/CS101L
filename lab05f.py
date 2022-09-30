@@ -74,7 +74,7 @@ def verify_check_digit(libr_card):
         return True, ''
 
 # main program
-    print("Main Program")
+print("Main Program")
 if __name__ == "__main__":
     
     running = True
@@ -105,7 +105,7 @@ if __name__ == "__main__":
         valid, reason = verify_check_digit(user_string)
 
         # Determines is the digit the user entered matches the calculated digit.
-        # If they didn't, prompt them to try again and restarts the program from the beginning
+        # If they didn't, tells them why and prompts them to try again and restarts the program from the beginning
         if valid == False:
             print(f'Error: {reason}. Please try again.')
             print()
@@ -113,6 +113,6 @@ if __name__ == "__main__":
     
         print('Information correct!')
         print()
-        break
+        break # ends the program
     
 
